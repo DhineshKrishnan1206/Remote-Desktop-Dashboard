@@ -9,7 +9,7 @@ const App = () => {
 
   useEffect(() => {
     const websocket = new WebSocket('ws://localhost:8080/ws');
-
+    //toDo so much to add
 
     websocket.onopen = () => {
       console.log("WebSocket connected");
